@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package model;
+option go_package="./model";
+
+message User {
+    int32 id = 1;
+    string name = 2;
+}
